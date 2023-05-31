@@ -107,3 +107,30 @@ h1,h2{
     width: 100%;
     height: 100%;
 }
+
+/* css for upper widgets */
+
+.container .content{
+    position: relative;
+    margin: 10vh;
+    min-height: 90vh;
+    z-index: -1;
+}
+.container .content .cards{
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .content .cards .card{
+    width: 170px;
+    height: 150px;
+    background: rgb(193, 241, 88);
+    margin: 9px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
