@@ -164,3 +164,52 @@ h1,h2{
 .container .content1 .cards1 .card1:hover{
     background: hsl(161, 85%, 63%);
 }
+
+/* media query */
+
+@media screen and (max-width: 1050px) {
+    .side-bar li{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 940px) {
+    .side-bar li span{
+        display: none;
+    }
+    .side-bar{
+        align-items: center;
+
+    }
+    .side-bar li img{
+        width: 40px;
+        height: 40px;
+
+    }
+    .side-bar li:hover{
+        background:#1e31ca;
+        padding: 8px 38px;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .side-bar .brand-name{
+        font-size:10px ;
+    }
+    .container .header{
+        position: initial;
+    }
+   
+}
+@media screen and (max-width: 536px) {
+    .brand-name h1{
+        font-size: 12px;
+    }
+    .container .content .cards{
+        justify-content: center;
+    }
+    .side-bar li img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+}
