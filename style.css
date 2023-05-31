@@ -134,3 +134,33 @@ h1,h2{
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
+
+/* css of lower widget */
+
+.container .content1{
+    position: relative;
+    margin: 10vh;
+    min-height: 90vh;
+    padding: 5px 104px;
+}
+.container .content1 .cards1{
+    padding: 13px;
+    margin: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .content1 .cards1 .card1{
+    width: 150px;
+    height: 150px;
+    background: rgb(106, 108, 236);
+    margin: 34px 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+.container .content1 .cards1 .card1:hover{
+    background: hsl(161, 85%, 63%);
+}
